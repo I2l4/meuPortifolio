@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navegacao">
+         <ul class="menu">
+            <li>
+                <a href="#inicio" class="menu-link">Início</a>
+            </li>
+
+            <li>
+                <a href="#sobre"  class="menu-link">Sobre</a>
+            </li>
+
+            <li>
+                <a href="#projetos"  class="menu-link">Projetos</a>
+            </li>
+
+            <li>
+                <a href="contato"  class="menu-link">Contato</a>
+            </li>
+
+         </ul>
+    </nav>
+
+    <main id="inicio" class="cabecalho">
+        <div>
+            <img src="./img/MeuPerfil.jpg" alt="Foto de Isla de Oliveira" class="Foto perfil">
+            <h1>Isla de Oliveira</h1>
+            <p>Desenvolvedora Front End</p>
+        </div>
+    </main>
+
+
+     <section id="sobre" class="sobre">
+        <h2 class="sobre-titulo">Sobre Mim</h2>
+        <div class="sobre-caixa">
+            <p class="sobre-paragrafo">Olá!! Me chamo Isla e atualmente sou recém-formada em Análise e Desenvolvimento de Sistemas; meu foco atual é Desenvolvimento Web.</p>
+        </div>
+     </section>
+
+    <section id="projetos" class="projetos"> 
+         <h2 class="projetos-titulos">Meus projetos</h2>
+         <div class="projetos-caixa">
+
+            <div class="projetos-card">
+                <img src="./img/ProjetoCRUD.png" alt="Projeto CRUD" class="projetos-imagem">
+                <h3 class="info-projetos">Controle de Produtos</h3>
+                <p class="paragrafo-orojetos">Sistema CRUD (Create, Read, Update, Delete) para controle de produtos, desenvolvido com HTML, CSS, JavaScript e PHP.</p>
+            </div>
+
+             <div class="projetos-card">
+                <img src="./img/ProjetoTelaLogin.png" alt="Projeto Tela Login" class="projetos-imagem">
+                <h3 class="info-projetos">Tela de Login</h3>
+                <p class="paragrafo-orojetos">Uma tela de login responsiva, simples e elegante desenvolvida com HTML , CSS e JavaScript , ideal para aplicações web.</p>
+             </div>
+
+             <div class="projetos-card">
+                <img src="./img/ProjetoToDoList.png" alt="Projeto To Do List" class="projetos-imagem">
+                <h3 class="info-projetos">Gerenciador de Tarefas</h3>
+                <p class="paragrafo-orojetos">To-Do List Neon é uma aplicação web estilosa para organizar suas tarefas do dia a dia.</p>
+             </div>
+
+         </div>
+
+    </section>
+
+
+    <section id="contatos" class="contatos">
+        <h2 class="contatos-titulo">Contatos</h2>
+
+        <form class="formulario-contato" id="formulario">
+            <div class="nome-form">
+                <input placeholder="Nome" class="campo-form">
+            </div>
+
+             <div class="grupo-form">
+                <textarea class="text-form" placeholder="Digite sua mensagem"></textarea>
+            </div>
+
+        </form>
+    </section>
+</body>
+</html>
