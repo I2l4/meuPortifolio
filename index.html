@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class="particulas"></div>
     <nav class="navegacao">
          <ul class="menu">
             <li>
@@ -41,7 +42,7 @@
      <section id="sobre" class="sobre">
         <h2 class="sobre-titulo">Sobre Mim</h2>
         <div class="sobre-caixa">
-            <p class="sobre-paragrafo">Olá! Me chamo Isla, sou recém-formada em Análise e Desenvolvimento de Sistemas e estou iniciando minha trajetória como desenvolvedora web. Tenho grande interesse em aprender, evoluir tecnicamente e contribuir com projetos reais.</p>
+            <p class="sobre-paragrafo">Olá! Me chamo Isla, sou recém-formada em Análise e Desenvolvimento de Sistemas e atuo com foco em desenvolvimento frontend. Tenho experiência em projetos utilizando HTML, CSS e JavaScript, voltados à construção de interfaces responsivas, funcionais e bem estruturadas.</p>
         </div>
      </section>
 
@@ -81,18 +82,24 @@
 
 
     <section id="contatos" class="contatos">
-        <h2 class="contatos-titulo">Contatos</h2>
+        <h2 class="contatos-titulo">Entre em Contato</h2>
 
         <form class="formulario-contato" id="formulario">
-            <div class="nome-form">
-                <input placeholder="Nome" class="campo-form">
+
+            <div class="grupo-form">
+                <input placeholder="Nome" class="campo-form" id="nome">
             </div>
+
 
              <div class="grupo-form">
-                <textarea class="text-form" placeholder="Digite sua mensagem"></textarea>
+                <textarea class="campo-form" placeholder="Digite sua mensagem" rows="4" id="mensagem"></textarea>
             </div>
-
+            <button type="submit" class="botao-form">Enviar Whatsapp</button>
         </form>
     </section>
+    <script>
+        const nome = document.getElementById('nome');
+        const mensagem = document.getElementById('mensagem');
+    </script>
 </body>
 </html>
