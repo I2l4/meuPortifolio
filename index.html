@@ -84,7 +84,7 @@
     <section id="contatos" class="contatos">
         <h2 class="contatos-titulo">Entre em Contato</h2>
 
-        <form class="formulario-contato" id="formulario">
+        <form class="formulario-contato" id="formulario" onsubmit="enviarWhats(event)">
 
             <div class="grupo-form">
                 <input placeholder="Nome" class="campo-form" id="nome">
@@ -97,9 +97,8 @@
             <button type="submit" class="botao-form">Enviar Whatsapp</button>
         </form>
     </section>
-    <script>
-        const nome = document.getElementById('nome');
-        const mensagem = document.getElementById('mensagem');
-    </script>
+
+   <script src="script.js"></script>
+   
 </body>
 </html>
