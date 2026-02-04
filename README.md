@@ -12,7 +12,7 @@ Portfólio desenvolvido para apresentar meus projetos e habilidades como **Desen
 
 ## 👩‍💻 Sobre Mim
 
-Sou **Isla de Oliveira**, recém-formada em **Análise e Desenvolvimento de Sistemas**, com foco em **desenvolvimento Front End** utilizando **HTML, CSS e JavaScript**.
+Sou **Isla de Oliveira**, recém-formada em **Análise e Desenvolvimento de Sistemas**, com foco em **desenvolvimento Front End** utilizando **HTML, CSS, JavaScript e Node.js**.
 
 ---
 
@@ -21,21 +21,21 @@ Sou **Isla de Oliveira**, recém-formada em **Análise e Desenvolvimento de Sist
 ### 📦 Controle de Produtos
 Sistema CRUD para controle de produtos.
 
-![Controle de Produtos](./assets/controle-produtos.png)
+![Controle de Produtos](img/ProjetoCRUD.png)
 
 ---
 
 ### 🔐 Tela de Login
 Tela de login simples, responsiva e elegante.
 
-![Tela de Login](./assets/tela-login.png)
+![Tela de Login](img/ProjetoTelaLogin.png)
 
 ---
 
 ### ✅ Gerenciador de Tarefas (To-Do List Neon)
 Aplicação web para organização de tarefas do dia a dia.
 
-![Gerenciador de Tarefas](./assets/todo-list.png)
+![Gerenciador de Tarefas](img/ProjetoToDoList.png)
 
 ---
 
