@@ -47,7 +47,7 @@ O portfólio possui formulário integrado ao **WhatsApp** para contato direto.
 
 ## 🔗 Acesse o Portfólio
 
-👉 *[[Link do portfólio aqui](https://i2l4.github.io/meuPortifolio/)]*
+👉 *[https://i2l4.github.io/meuPortifolio/]*
 
 ---
 
