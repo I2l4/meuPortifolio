@@ -16,3 +16,7 @@ function enviarWhats(event){
         window.open(url, '_blank')
 
         }
+
+function abrirProjeto(url) {
+    window.open(url, '_blank');
+}
